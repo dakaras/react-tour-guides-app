@@ -7,7 +7,7 @@ export default function Navbar() {
             <img src={Colosseum} alt='Colosseum'className='colosseum'/>
             
             <ul className='nav-links'>
-                <li>
+                {/* <li>
                     <a href='/' className='nav-link'>Home</a>
                 </li>
                 <li>
@@ -15,9 +15,15 @@ export default function Navbar() {
                 </li>
                 <li>
                     <a href='/' className='nav-link active'>Tours</a>
-                </li>
+                </li> */}
             </ul>
             <div className='title'>Guided Roman Tours</div>
+            <div className='mobile-nav'>
+                <div className='line1'></div>
+                <div className='line2'></div>
+                <div className='line3'></div>
+            </div>
         </nav>
     )
 }
+

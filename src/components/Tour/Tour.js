@@ -25,15 +25,14 @@ export default class Tour extends Component {
                 </span>
                 </div>
                 <div className='tour-info'>
-                    < h3 > {name} </h3>
-                    < h4 > {price} </h4>
-                    <h5>info{""}
+                    <h3> {name} </h3>
+                    <h4> {price} </h4>
+                    <h5>DESCRIPTION{""}
                         <span onClick={this.handleInfo}>
                             <i className='fas fa-caret-square-down'/>
                         </span>
-                    </h5>
-                    {this.state.showInfo && <p> {info} </p> }
-                    
+                        {this.state.showInfo && <p> {info} </p> }
+                    </h5>   
                 </div>
             </article>
         )
